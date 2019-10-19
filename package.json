@@ -8,11 +8,13 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "7.5.5",
     "random": "2.1.1"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
     "parcel-bundler": "^1.6.1"
   },
-  "keywords": []
+  "keywords": [],
+  "plugins": [["@babel/plugin-proposal-class-properties"]]
 }
